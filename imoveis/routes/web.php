@@ -11,4 +11,5 @@
 |
 */
 
+Route::get('/imoveis/remove/{id}', 'ImovelController@remover')->name('imoveis.remove');
 Route::resource('imoveis', 'ImovelController');
